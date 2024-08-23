@@ -1,0 +1,71 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Arquivos sensíveis do projeto AlugaFacil
+android/app/google-services.json
+android/app/build.gradle
+android/build.gradle
+android/app/src/debug/google-services.json
+android/app/src/main/AndroidManifest.xml
+
+# Arquivos e pastas do IntelliJ específicos do projeto AlugaFacil
+.idea/modules.xml
+.idea/workspace.xml
+.idea/libraries/Dart_SDK.xml
+
+# Arquivos de configuração do Dart e Flutter no projeto AlugaFacil
+.dart_tool/package_config_subset
+.dart_tool/package_config.json
+.dart_tool/flutter_build
+.dart_tool/chrome-device
+
+# Arquivo de opções do Firebase no projeto AlugaFacil
+lib/firebase_options.dart
+
+# Outros arquivos e metadados do projeto AlugaFacil
+AlugaFacil.iml
+.metadata
+.flutter-plugins-dependencies
+flutter-plugins
